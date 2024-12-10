@@ -21,9 +21,22 @@ body {
 }
 
 .navbar-shape {
-  clip-path: polygon(0 0, 100% 0, 86% 100%, 14% 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
 }
 
 .herosection-bg-gradient {
   background: radial-gradient(circle at bottom, rgb(66, 66, 66), black);
+}
+
+.herosection-bg-image {
+  background-image: url("../../public/cybertruck.jpg");
+  background-size: cover;
+}
+
+.herosection-transparent-heading {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+  mask-image: linear-gradient(to bottom, black, transparent 70%);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 70%);
 }
