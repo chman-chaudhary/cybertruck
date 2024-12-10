@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar-shape {
+  clip-path: polygon(0 0, 100% 0, 86% 100%, 14% 100%);
+}
+
+.herosection-bg-gradient {
+  background: radial-gradient(circle at bottom, rgb(66, 66, 66), black);
+}

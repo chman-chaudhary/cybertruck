@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ["DefaultSans", "Arial", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
+      },
     },
   },
   plugins: [],
