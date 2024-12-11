@@ -20,6 +20,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .navbar-shape {
   clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
   box-shadow: 2px 33px 114px 25px rgba(247, 247, 247, 0.49);
@@ -32,12 +36,22 @@ body {
 }
 
 .herosection-bg-image {
-  background-image: url("../../public/cybertruck3.jpg");
+  background-image: url("../../public/cybertruck.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh; /* Adjusts the height to always cover the viewport */
+  height: 100vh;
+  animation: scaleOut 0.5s ease-out forwards;
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 768px) {

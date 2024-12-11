@@ -11,8 +11,8 @@ const HeroSection = () => {
           </h2>
           <p className="w-1/2 lg:w-2/5 text-center lg:text-[9px] text-[6px]">
             durable and rugged enough to go anywhere. tackle anything with
-            electronically adaptive air suspension that offers 12" of travel and
-            17" of clearance.
+            electronically adaptive air suspension that offers 12&quot; of
+            travel and 17&quot; of clearance.
           </p>
         </div>
       </div>
